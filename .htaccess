@@ -1,8 +1,9 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /joueur2noblat
-RewriteRule ^index\.php$ - [L]
+RewriteRule ^index.php$ - [L]
 RewriteCond %{REQUEST_URI} !-f
 RewriteCond %{REQUEST_URI} !-d
+RewriteCond %{REQUEST_URI} !(\.png|\.jpg|\.gif|\.jpeg|\.css|\.js|\.ttf|\.webmanifest|\.txt|\.map)$
 RewriteRule . index.php [L]
 </IfModule>
