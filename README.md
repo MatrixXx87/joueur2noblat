@@ -9,7 +9,7 @@ Site internet du fameux Hotel Bogdanoff
 # Installation 
 ○ Clôner le repository : 
 ```bash
-git clone https://github.com/Hotel-sln/Hotel.git
+git clone https://github.com/...................
 ```
 
 ○ Créer un config.conf
@@ -20,11 +20,11 @@ git clone https://github.com/Hotel-sln/Hotel.git
 
 ``` 
 define('SERVER', 'localhost');
-define('NAME', 'hotel_menton');
+define('NAME', 'joueur2noblat');
 define('USER', '[user]');
 define('PASSWD', '[mot de passe]');
   $server = 'localhost';
-  $name ='hotel_menton'; 
+  $name ='joueur2noblat'; 
   $user='[user]';
   $passwd='[mot de passe]';
 ```
@@ -32,6 +32,7 @@ define('PASSWD', '[mot de passe]');
 ○ Dans PHPMyAdmin, importer :
 ```
 create_bdd.sql
-create_reservations.sql
-create_users.sql
+...
+...
+
 ```
