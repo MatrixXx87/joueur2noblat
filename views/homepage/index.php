@@ -20,12 +20,26 @@
 
 
     <main>
-        <section id="banniere">
-            <img src="assets/img/logoj2n.jpg" alt="image bannière" class="bannier" />
-        </section>
+    <div class="container-fluid" id="slider">
+            <button class="prev sliderbutton">&lt;</button>
+            <button class="next sliderbutton">&gt;</button>
+            <div class="slide">
+                <img src="assets/img/logoj2n.jpg" alt="baniere" />
+            </div>
+            <div class="slide">
+                <img src="assets/img/photo1.jpg" alt="photojeux1" />
+            </div>
+            <div class="slide">
+                <img src="assets/img/photo2.jpg" alt="photojeux2" />
+            </div>
+            <div class="slide">
+                <img src="assets/img/photo3.jpg" alt="photojeux3" />
+            </div>
+        </div>
 
         <section class="descriptionasso">
             <article>
+            <h2> Presentation de l association </h2>
                 <p>
                 Eo adducta re per Isauriam, rege Persarum bellis finitimis inligato repellenteque a conlimitiis suis ferocissimas gentes, quae mente quadam versabili hostiliter eum saepe incessunt et in nos arma moventem aliquotiens iuvant, Nohodares quidam nomine e numero optimatum, incursare Mesopotamiam quotiens copia dederit ordinatus, explorabat nostra sollicite, si repperisset usquam locum vi subita perrupturus.
 
@@ -44,13 +58,43 @@ Alios autem dicere aiunt multo etiam inhumanius (quem locum breviter paulo ante 
 Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?
                 </p>
             </article>
-
-            <aside>
-                <img src="assets/img/logoj2n.jpg" alt="photo" class="photo" />
-            </aside>
         </section>
 
-        <div id="slider">
+        </br></br></br>
+
+        <section class="descriptionasso">
+            <article>
+            <h2> Infos et evenements lié  a l association </h2>
+                <p>
+                Eo adducta re per Isauriam, rege Persarum bellis finitimis inligato repellenteque a conlimitiis suis ferocissimas gentes, quae mente quadam versabili hostiliter eum saepe incessunt et in nos arma moventem aliquotiens iuvant, Nohodares quidam nomine e numero optimatum, incursare Mesopotamiam quotiens copia dederit ordinatus, explorabat nostra sollicite, si repperisset usquam locum vi subita perrupturus.
+
+Quapropter a natura mihi videtur potius quam ab indigentia orta amicitia, applicatione magis animi cum quodam sensu amandi quam cogitatione quantum illa res utilitatis esset habitura. Quod quidem quale sit, etiam in bestiis quibusdam animadverti potest, quae ex se natos ita amant ad quoddam tempus et ab eis ita amantur ut facile earum sensus appareat. Quod in homine multo est evidentius, primum ex ea caritate quae est inter natos et parentes, quae dirimi nisi detestabili scelere non potest; deinde cum similis sensus exstitit amoris, si aliquem nacti sumus cuius cum moribus et natura congruamus, quod in eo quasi lumen aliquod probitatis et virtutis perspicere videamur.
+
+Soleo saepe ante oculos ponere, idque libenter crebris usurpare sermonibus, omnis nostrorum imperatorum, omnis exterarum gentium potentissimorumque populorum, omnis clarissimorum regum res gestas, cum tuis nec contentionum magnitudine nec numero proeliorum nec varietate regionum nec celeritate conficiendi nec dissimilitudine bellorum posse conferri; nec vero disiunctissimas terras citius passibus cuiusquam potuisse peragrari, quam tuis non dicam cursibus, sed victoriis lustratae sunt.
+
+Quam ob rem vita quidem talis fuit vel fortuna vel gloria, ut nihil posset accedere, moriendi autem sensum celeritas abstulit; quo de genere mortis difficile dictu est; quid homines suspicentur, videtis; hoc vere tamen licet dicere, P. 
+                </p>
+            </article>
+        </section>
+
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-sm-6 text-center ">
+                    <aside class="px-4 m-2">
+                        <img src="assets/img/logoj2n.jpg" alt="photo" class="photo center-block" width="250px" heigth="150px"/>
+                    </aside>
+                </div>
+
+                <div class="col-sm-6 text-center">
+                    <div class="px-4 m-2 justify-content-center align-items-center">
+                        <a href="<?php echo BASE_URL; ?>contact/pagecontact" class="btn btn-warning btn-lg">Nous contactez</a></nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="slider">
             <button class="prev sliderbutton">&lt;</button>
             <button class="next sliderbutton">&gt;</button>
             <div class="slide">

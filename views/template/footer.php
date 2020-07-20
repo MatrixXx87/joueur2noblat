@@ -5,7 +5,7 @@
         <li class="feetelem">(+33)07 71 02 71 50</li>
         <li class="feetelem">joueur de noblat.fr.fr</li>
             <span class="network">
-                <button class="btnfeet" onclick="window.location.href = 'https://https://www.facebook.com/joueursde.noblat.7/';">
+                <button class="btnfeet" onclick="window.open(href = 'https://www.facebook.com/joueursde.noblat.7/');">
                     <i class="fab fa-facebook-square fa-2x"></i>
                 </button>
             </span>

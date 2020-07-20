@@ -1,8 +1,8 @@
 <?php
 
-function pagejeux () {
+function pagejeuxAction () {
     session_start();
-
+    
     require ('views/listejeux/jeux.php');
 }
 
