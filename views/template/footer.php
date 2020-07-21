@@ -11,9 +11,9 @@
             </span>
         </li>
     </ul>
-    <img class="feetpic" src="assets/img/logoj2nsm.jpg" alt="logo" />
+    <img class="feetpic" src="<?php echo BASE_URL; ?>assets/img/logoj2nsm.jpg" alt="logo" />
 
     <aside class="legal">
-        <img class="icon_royal" src="assets/img/logoj2nsm.jpg" alt="logo" /> Mentions légales - Plan du site - © McodeV
+        <img class="icon_royal" src="<?php echo BASE_URL; ?>assets/img/logoj2nsm.jpg" alt="logo" /> Mentions légales - Plan du site - © McodeV
     </aside>
 </footer>

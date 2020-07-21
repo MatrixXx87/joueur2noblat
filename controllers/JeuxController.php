@@ -6,3 +6,6 @@ function pagejeuxAction () {
     require ('views/listejeux/jeux.php');
 }
 
+function trierjeuxAction () {
+    echo $_POST['user'];
+}

@@ -11,7 +11,7 @@ const mymap = L.map('mapid').setView([45.837469, 1.489231], 16);
             color: 'e58714',
             fillColor: '#f03',
             fillOpacity: 0.5,
-            radius: 150
+            radius: 50
         }).addTo(mymap);
 
         let popup = L.popup();
